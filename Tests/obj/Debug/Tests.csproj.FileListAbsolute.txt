@@ -28,3 +28,5 @@ C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Microsoft.Pr
 C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\ThinkNet.pdb
 C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\ThinkNet.xml
 C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\ThinkNet.Unity.pdb
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Ninject.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Ninject.xml

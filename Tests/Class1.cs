@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Practices.Unity;
+using Ninject;
 using NUnit.Framework;
 namespace Tests
 {
@@ -13,9 +14,8 @@ namespace Tests
         [Test]
         public void FindLogFIleTest()
         {
-            IUnityContainer container = new UnityContainer();
-            container.RegisterType<IDataAccessObject, StubFIleDataObject>();
-            FileManager mgr = container.Resolve<FileManager>();
+            IKernel ninjectKernel = new StandardKernel(new ConfigureFileObjectData());
+            FileManager mgr = ninjectKernel.Get<FileManager>();
             Assert.IsTrue(mgr.FindLogFile("file2.log"));
         }
     }

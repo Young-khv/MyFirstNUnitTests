@@ -9,20 +9,22 @@ namespace Tests
 {
     class FileManager
     {
-        
+        public IDataAccessObject dataAccessObject; 
         public FileManager()
         {}
 
-        [Dependency]
-        public IDataAccessObject DataAccessObject { get; set; }
+        public FileManager(IDataAccessObject dataAccessObject)
+        {
+            this.dataAccessObject = dataAccessObject;
+        }
 
         public bool FindLogFile(string fileName)
         {
-            if (DataAccessObject == null)
+            if (dataAccessObject == null)
             {
                 throw new ArgumentNullException("DataAccessObkect","this arg is null");
             }
-            List<string> files = DataAccessObject.GetFiles();
+            List<string> files = dataAccessObject.GetFiles();
 
             foreach (var file in files)
             {
