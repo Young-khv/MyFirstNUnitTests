@@ -5,3 +5,26 @@ c:\users\arkad_000\documents\visual studio 2013\Projects\Tests\Tests\bin\Debug\n
 c:\users\arkad_000\documents\visual studio 2013\Projects\Tests\Tests\obj\Debug\Tests.dll
 c:\users\arkad_000\documents\visual studio 2013\Projects\Tests\Tests\obj\Debug\Tests.pdb
 C:\Users\arkad_000\documents\visual studio 2013\Projects\Tests\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Tests.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Tests.pdb
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\nunit.framework.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\nunit.framework.xml
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\obj\Debug\Tests.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\obj\Debug\Tests.pdb
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\ThinkNet.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\ThinkNet.Unity.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\ThinkNet.pdb
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\ThinkNet.xml
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\ThinkNet.Unity.pdb

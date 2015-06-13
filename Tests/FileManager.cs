@@ -3,22 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Practices.Unity;
 
 namespace Tests
 {
     class FileManager
     {
-        IDataAccessObject dataAccessObject;
-
+        
         public FileManager()
-        {
-            dataAccessObject = FactoryClass.CreateDataAccessObject();
-        }
+        {}
+
+        [Dependency]
+        public IDataAccessObject DataAccessObject { get; set; }
 
         public bool FindLogFile(string fileName)
         {
-           
-            List<string> files = dataAccessObject.GetFiles();
+            if (DataAccessObject == null)
+            {
+                throw new ArgumentNullException("DataAccessObkect","this arg is null");
+            }
+            List<string> files = DataAccessObject.GetFiles();
 
             foreach (var file in files)
             {
