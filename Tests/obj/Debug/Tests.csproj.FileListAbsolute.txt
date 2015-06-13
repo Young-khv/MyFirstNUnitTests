@@ -1,0 +1,7 @@
+c:\users\arkad_000\documents\visual studio 2013\Projects\Tests\Tests\bin\Debug\Tests.dll
+c:\users\arkad_000\documents\visual studio 2013\Projects\Tests\Tests\bin\Debug\Tests.pdb
+c:\users\arkad_000\documents\visual studio 2013\Projects\Tests\Tests\bin\Debug\nunit.framework.dll
+c:\users\arkad_000\documents\visual studio 2013\Projects\Tests\Tests\bin\Debug\nunit.framework.xml
+c:\users\arkad_000\documents\visual studio 2013\Projects\Tests\Tests\obj\Debug\Tests.dll
+c:\users\arkad_000\documents\visual studio 2013\Projects\Tests\Tests\obj\Debug\Tests.pdb
+C:\Users\arkad_000\documents\visual studio 2013\Projects\Tests\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
