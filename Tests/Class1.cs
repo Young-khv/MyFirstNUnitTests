@@ -14,7 +14,7 @@ namespace Tests
         {
             FactoryClass.SetDataAccessObject(new StubFIleDataObject());
             FileManager mgr = new FileManager();
-          
+            // Hello from second device!
             Assert.IsTrue(mgr.FindLogFile("file2.log"));
         }
     }
