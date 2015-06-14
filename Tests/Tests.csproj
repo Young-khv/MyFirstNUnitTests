@@ -89,6 +89,8 @@
     <Compile Include="FIleDataObject.cs" />
     <Compile Include="FileManager.cs" />
     <Compile Include="IDataAccessObject.cs" />
+    <Compile Include="ILogService.cs" />
+    <Compile Include="MockLoggService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestDataObject.cs" />
   </ItemGroup>

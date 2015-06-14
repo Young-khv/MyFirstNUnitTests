@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,30 +10,20 @@ namespace Tests
 {
     class FileManager
     {
-        public IDataAccessObject dataAccessObject; 
-        public FileManager()
-        {}
+        ILogService service;
 
-        public FileManager(IDataAccessObject dataAccessObject)
+        public FileManager(ILogService service)
         {
-            this.dataAccessObject = dataAccessObject;
+            this.service = service;
         }
 
-        public bool FindLogFile(string fileName)
+        public void Analize(string fileName)
         {
-            if (dataAccessObject == null)
-            {
-                throw new ArgumentNullException("DataAccessObkect","this arg is null");
-            }
-            List<string> files = dataAccessObject.GetFiles();
+            if (fileName.Length < 8)
+                service.LogError("Filename too short:" + fileName);
 
-            foreach (var file in files)
-            {
-                if (file.Contains(fileName))
-                    return true;
-            }
-
-            return false;
+            if (Path.GetExtension(fileName) != ".txt")
+                service.LogError("FileExtension error:" + fileName);
         }
     }
 }

@@ -14,9 +14,10 @@ namespace Tests
         [Test]
         public void FindLogFIleTest()
         {
-            IKernel ninjectKernel = new StandardKernel(new ConfigureFileObjectData());
-            FileManager mgr = ninjectKernel.Get<FileManager>();
-            Assert.IsTrue(mgr.FindLogFile("file2.log"));
+           MockLogService mockLogService = new MockLogService();
+           FileManager mgr = new FileManager(mockLogService);
+           mgr.Analize("SomeFile.log");
+           Assert.AreEqual("FileExtension error:SomeFile.log", mockLogService.lastError);
         }
     }
 }
