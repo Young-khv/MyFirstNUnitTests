@@ -30,3 +30,9 @@ C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\ThinkNet.xml
 C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\ThinkNet.Unity.pdb
 C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Ninject.dll
 C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Ninject.xml
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Ninject.MockingKernel.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Ninject.MockingKernel.RhinoMock.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Ninject.MockingKernel.xml
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Ninject.MockingKernel.RhinoMock.xml
+C:\Users\Arkadiy\Documents\GitHub\MyFirstNUnitTests\Tests\bin\Debug\Rhino.Mocks.xml
